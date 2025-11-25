@@ -165,7 +165,7 @@ const Gameplay: React.FC<GameplayProps> = ({ players, onEliminate, onRestart, wi
           ) : (
             <div className="bg-black/80 backdrop-blur text-white px-6 py-3 rounded-full border border-white/10 shadow-2xl flex items-center gap-2 mb-2">
                 <AlertTriangle className="w-4 h-4 text-yellow-500" />
-                <span className="text-sm font-medium">描述阶段 -> 投票阶段 -> 淘汰</span>
+                <span className="text-sm font-medium">描述阶段 → 投票阶段 → 淘汰</span>
             </div>
           )}
       </div>
